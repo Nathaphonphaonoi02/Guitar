@@ -1,0 +1,57 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f5e4e4;
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #fcd1d1;
+ border: 1px solid #e0b6b6;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+ text-align: center;
+ color: #ec008c;
+}
+
+p {
+ text-align: center;
+ color: #333;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+input {
+ display: block;
+ width: 100%;
+ padding: 8px;
+ margin: 10px 0;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+button {
+ display: block;
+ width: 100%;
+ padding: 10px;
+ background-color: #ec008c;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #ff4caf;
+}
+.text-gay {
+ font-family: fantasy;
+ color: rgb(12, 146, 12);
+ font-size: 50px;
+}

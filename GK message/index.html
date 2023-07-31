@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>เกมฝึกคิดเลข</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>เกมฝึกคิดเลข</h1>
+        <p id="question"></p>
+        <input type="text" id="answer" placeholder="ใส่คำตอบ" onkeypress="handleKeyPress(event)">
+        <button onclick="checkAnswer()">ตรวจสอบ</button>
+        <br>
+        <button onclick="resetGame()">รีเซ็ตเกม</button> <!-- ปุ่มสำหรับรีเซ็ตเกม -->
+        <p id="result"></p>
+        <p id="score">คะแนน: 0</p>
+        
+    </div>
+    <p class="text-gay">คะเเนนเต็ม 20 คะเเนน</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
