@@ -8,11 +8,12 @@ body {
 .container {
  max-width: 400px;
  margin: 0 auto;
+ margin-top: 200px;
  padding: 20px;
  background-color: #fcd1d1;
  border: 1px solid #e0b6b6;
  border-radius: 10px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 0 100px rgb(155, 25, 122);
 }
 
 h1 {
